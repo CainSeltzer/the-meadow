@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Main msg="I'm OOGLY GOO!!"/>
+  <img alt="adorable deer eaing yummy cheezits" width="200" src="./assets/deer-eating-cheezits.gif">
+  <Main msg="It's ME!!!"/>
 </template>
 
 <script>
