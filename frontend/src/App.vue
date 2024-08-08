@@ -1,18 +1,10 @@
 <template>
+  <h1>Bleat!</h1>
   <img alt="adorable deer eaing yummy cheezits" width="200" src="./assets/deer-eating-cheezits.gif">
-  <Main msg="It's ME!!!"/>
+  <main>
+    <RouterView />
+  </main>
 </template>
-
-<script>
-import Main from './components/Main.vue'
-
-export default {
-  name: 'App',
-  components: {
-    Main
-  }
-}
-</script>
 
 <style>
 #app {
