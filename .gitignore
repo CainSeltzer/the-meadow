@@ -180,3 +180,4 @@ frontend/.vscode
 frontend/dist
 frontend/temp
 frontend/types/v3-generated.d.ts
+*.code-workspace
