@@ -1,5 +1,5 @@
 # the-meadow
-My personal site and code sandbox
+My personal site and code sandbox.
 
 ## Frontend Project setup
 ```
