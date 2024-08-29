@@ -1,8 +1,8 @@
 <template>
-    <h2>Mwee?</h2>
+    <h2>deer are like, rad</h2>
 </template>
 
-<script set>
+<script>
 export default {
 }
 </script>
