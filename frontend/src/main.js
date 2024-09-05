@@ -1,4 +1,25 @@
 import { createApp } from 'vue'
+import { createWebHistory, createRouter } from 'vue-router'
+
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap"
+
+import HomePage from './views/HomePage.vue'
+import AboutMe from './views/AboutMe.vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+
+
+const routes = [
+    { path: '/', component: HomePage },
+    { path: '/about', component: AboutMe },
+]
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes,
+})
+
+createApp(App)
+    .use(router)
+    .mount('#app')
