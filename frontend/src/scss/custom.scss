@@ -1,0 +1,56 @@
+//====================
+// We'll define frequently-used variables/colors below 👇
+//====================
+
+//Example:
+$navbar-light: #d8e3e0;
+
+//====================
+// Global style customizations (applied regardless of color theme) below 👇
+//====================
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+
+
+//====================
+// Global theme color customizations below 👇
+//====================
+[data-bs-theme="light"] {
+  
+}
+[data-bs-theme="dark"] {
+
+}
+
+//====================
+// Component-specific customizations below 👇
+//====================
+
+// Navbar
+[data-bs-theme="light"] .navbar {
+    background-color: #d8e3e0;
+}
+[data-bs-theme="dark"] .navbar {
+    background-color: #078f6b;
+}
+
+// Dark mode switch
+[data-bs-theme="light"] .switch-label {
+
+    --background-color-primary: #d8e3e0;
+    --background-color-secondary: #fafafa;
+    --accent-color: #cacaca;
+    --text-primary-color: #222;
+}
+[data-bs-theme="dark"] .switch-label {
+
+    --background-color-primary: #1e1e1e;
+    --background-color-secondary: #2d2d30;
+    --accent-color: #3f3f3f;
+    --text-primary-color: #a8ccc2;
+}
+
