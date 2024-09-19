@@ -15,12 +15,19 @@ $navbar-light: #d8e3e0;
     text-align: center;
 }
 
+.home-prime {
+    max-width: 80%;
+    margin-top: 100px;
+    background-color: #d8e3e0;
+
+}
+
 
 //====================
 // Global theme color customizations below 👇
 //====================
 [data-bs-theme="light"] {
-  
+
 }
 [data-bs-theme="dark"] {
 
@@ -53,4 +60,3 @@ $navbar-light: #d8e3e0;
     --accent-color: #3f3f3f;
     --text-primary-color: #a8ccc2;
 }
-

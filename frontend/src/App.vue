@@ -23,8 +23,12 @@
     </nav>
   </div>
 
-  <h1>Bleat!</h1>
-  <img alt="adorable deer eaing yummy cheezits" width="200" src="./assets/deer-eating-cheezits.gif">
+  <div class="card border-warning bg-warning mb-3" style="margin: 2%;">
+    <div class="card-body" style="color: black;">
+      Please be aware that this site is still a work in progress project. So some featuers are likely not yet available or fully functional
+    </div>
+  </div>
+
   <main>
     <RouterView />
   </main>
