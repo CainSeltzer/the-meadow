@@ -1,6 +1,7 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg p-3" style="background-color: #d8e3e0;">
+
+    <nav id="navBar" class="navbar navbar-expand-lg p-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="">Deer Website</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,25 +18,42 @@
           </ul>
         </div>
       </div>
+      <dark-mode-button />
+
     </nav>
   </div>
 
-  <!--
   <h1>Bleat!</h1>
   <img alt="adorable deer eaing yummy cheezits" width="200" src="./assets/deer-eating-cheezits.gif">
-  -->
-
   <main>
     <RouterView />
   </main>
 </template>
 
+<script>
+import DarkModeButton from "@/components/DarkModeButton.vue";
+export default {
+  components: { DarkModeButton },
+};
+
+</script>
+
+<style lang="scss">
+  @import "./scss/custom.scss";
+</style>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+/* Define styles for the default root window element */
+:root {
+  --background-color-primary: #ebebeb;
+  --background-color-secondary: #fafafa;
+  --accent-color: #cacaca;
+  --text-primary-color: #222;
+
 }
+
+
+
+
 </style>
