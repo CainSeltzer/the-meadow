@@ -7,14 +7,23 @@
             <div class="col-md-8">
                 <div class="card-body">
                     <h1 class="card-title" style="font-weight:bold;">Lucas Kearns</h1>
-                    <p class="card-body">
-                        Hello! I'm a software eating three million ton pile of pipes and various
-                        trace masses of unknown origin orbiting an unknown planet on the edge of
-                        the Somersloop system. I have been transmitting radio patterns with seemingly
-                        random patterns with no known meaning; that is until 1959, when the Luna 1
-                        pickced up faint radio signals from the core of the moon which matched my
-                        transmissions perfectly. Since then, for reasons undisclosed to the public, worldwide government space organizations
-                        have been trying to forcibly eject the moon from earth's orbit.
+                    <h4 class="card-body" style="margin-left: 10%; margin-right: 10%;">
+                        Hello! My name is Lucas Kearns, and I’m a new Software Engineer who’s searching for
+                        opportunities to develop both myself and my career to the fullest.
+                    </h4>
+                    <h4 class="card-title" style="margin-top: 5%; text-align: left; margin-left: 5%;">
+                        Some points about me:
+                    </h4>
+                    <p class="card-text" style="text-align: left; margin-left: 8%; margin-right: 8%;">
+                        •Highly motivated, creative, professional,
+                        and flexible individual with expertise across a broad range of communication, multimedia, and technology
+                        <br>
+                        •Quick to learn and apply new information with high attention to detail and accuracy
+                        <br>
+                        •Excellent collaborator able to communicate and coordinate effectively as a project
+                        leader and team member
+                        <br>
+                        •A talent for analyzing problems, simplifying procedures, and finding innovative solutions.
                     </p>
                 </div>
             </div>

@@ -16,10 +16,8 @@ $navbar-light: #d8e3e0;
 }
 
 .home-prime {
-    max-width: 80%;
+    max-width: 75%;
     margin-top: 100px;
-    background-color: #d8e3e0;
-
 }
 
 
@@ -44,6 +42,17 @@ $navbar-light: #d8e3e0;
 [data-bs-theme="dark"] .navbar {
     background-color: #078f6b;
 }
+
+
+// NOTES
+[data-bs-theme="light"] .home-prime {
+    background-color: #d8e3e0;
+}
+
+[data-bs-theme="dark"] .home-prime {
+    background-color: #078f6b;
+}
+
 
 // Dark mode switch
 [data-bs-theme="light"] .switch-label {
