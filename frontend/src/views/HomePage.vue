@@ -30,6 +30,23 @@
         </div>
 
     </div>
+
+    <div class="card mx-auto border-0 home-prime" style="max-width: 1000px;">
+        <h5 class="card-title">
+            Please note this is a new website still early in development,
+            and I plan to update it regularly, so even if there isn't much to see
+            now, consider checking back in often! Functions I plan on adding soon include:
+        </h5>
+        <p class="card-text" style="text-align: left; margin-left: 3%;">
+            •An About section including my personal information and contact details
+            <br>
+            •A project section in which all my current and past programming projects will be logged
+            <br>
+            •A code sandbox to show off smaller builds and projects using a variety of languages and framewoerks
+        </p>
+    </div>
+
+
 </template>
 
 <script>
