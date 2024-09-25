@@ -15,30 +15,38 @@ $navbar-light: #d8e3e0;
     text-align: center;
 }
 
-.home-prime {
-    max-width: 75%;
-    margin-top: 100px;
-}
-
-
 //====================
 // Global theme color customizations below 👇
 //====================
-[data-bs-theme="light"] {
+[data-bs-theme="light"] {}
 
-}
-[data-bs-theme="dark"] {
-
-}
+[data-bs-theme="dark"] {}
 
 //====================
 // Component-specific customizations below 👇
 //====================
 
+[data-bs-theme="light"] .deer-header {
+    background-color: #d8e3e0;
+}
+
+[data-bs-theme="dark"] .deer-header {
+    background-color: #078f6b;
+}
+
+[data-bs-theme="light"] .deer-body {
+    background-color: #b0c7c1;
+}
+
+[data-bs-theme="dark"] .deer-body {
+    background-color: #02684d;
+}
+
 // Navbar
 [data-bs-theme="light"] .navbar {
     background-color: #d8e3e0;
 }
+
 [data-bs-theme="dark"] .navbar {
     background-color: #078f6b;
 }
@@ -62,6 +70,7 @@ $navbar-light: #d8e3e0;
     --accent-color: #cacaca;
     --text-primary-color: #222;
 }
+
 [data-bs-theme="dark"] .switch-label {
 
     --background-color-primary: #1e1e1e;
