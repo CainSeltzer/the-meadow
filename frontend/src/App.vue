@@ -1,10 +1,10 @@
 <template>
   <div>
-
     <nav id="navBar" class="navbar navbar-expand-lg p-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="">Deer Website</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -22,10 +22,13 @@
 
     </nav>
   </div>
-
-  <div class="card border-warning bg-warning mb-3" style="margin: 2%;">
-    <div class="card-body" style="color: black;">
-      Please be aware that this site is still a work in progress project. So some featuers are likely not yet available or fully functional
+  <div class="row justify-content-md-center">
+    <div id="siteWarning" class="card border-warning bg-warning mb-3 col-sm-4" style="margin: 2%;">
+      <div class="card-body" style="color: black;">
+        <font-awesome-icon :icon="['fas', 'triangle-exclamation']" /> Please be aware that this site is still a work in
+        progress project.<br />Some features are likely not yet
+        available or fully functional!
+      </div>
     </div>
   </div>
 
@@ -43,11 +46,10 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "./scss/custom.scss";
+@import "./scss/custom.scss";
 </style>
 
 <style>
-
 /* Define styles for the default root window element */
 :root {
   --background-color-primary: #ebebeb;
@@ -56,8 +58,4 @@ export default {
   --text-primary-color: #222;
 
 }
-
-
-
-
 </style>
