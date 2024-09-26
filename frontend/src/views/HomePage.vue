@@ -94,11 +94,15 @@
             </div>
         </div>
     </div>
+    <br/>
+    <contact-form/>
 </template>
 
 <script>
+import ContactForm from "@/components/ContactForm.vue";
 export default {
-}
+  components: { ContactForm },
+};
 </script>
 
 <style></style>
