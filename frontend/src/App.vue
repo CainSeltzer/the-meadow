@@ -13,7 +13,10 @@
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a href="/about" class="nav-link">About</a>
+              <a href="/about" class="nav-link active">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/projects" class="nav-link active">Projects</a>
             </li>
           </ul>
         </div>

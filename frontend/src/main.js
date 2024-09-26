@@ -6,6 +6,7 @@ import "bootstrap"
 
 import HomePage from './views/HomePage.vue'
 import AboutMe from './views/AboutMe.vue'
+import ProjectList from './views/ProjectList.vue'
 import App from './App.vue'
 
 /* import the fontawesome core */
@@ -25,6 +26,7 @@ library.add(faTriangleExclamation)
 const routes = [
     { path: '/', component: HomePage },
     { path: '/about', component: AboutMe },
+    { path: '/projects', component: ProjectList},
 ]
 
 const router = createRouter({

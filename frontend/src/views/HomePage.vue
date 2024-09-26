@@ -1,43 +1,6 @@
 <template>
     <div class="container">
         <div class="row justify-content-md-center">
-            <div class="col">
-                <div class="card border-0">
-
-                    <div class="card-header deer-header">
-                        <h1 class="card-title" style="font-weight:bold; ">Card Template 1</h1>
-                    </div>
-
-                    <div class="card-body deer-body">
-                        <div class="row">
-                            <div class="col d-flex align-items-center justify-content-center">
-                                <img src="../assets/LucasPFP.jpg" alt="..." width="400px">
-                            </div>
-                            <div class="col">
-                                <h4 class="card-text d-flex align-items-center justify-content-center">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in ornare libero, eu
-                                    sollicitudin urna. Vivamus eu lorem congue, tincidunt sapien porttitor, tincidunt
-                                    ligula. Nam magna enim, maximus ut tincidunt in, consequat nec velit. Suspendisse at
-                                    metus id nisi volutpat lobortis ut ac orci. Sed dignissim nibh eget ante
-                                    pellentesque
-                                    feugiat. Vestibulum ut nunc eu neque sagittis vestibulum sed at nulla. Nunc congue
-                                    turpis ligula, vitae tempus dolor varius ac. Ut sit amet mi et mauris lobortis
-                                    pharetra
-                                    non at nisi. Mauris in felis porta metus semper lacinia nec sit amet tortor.
-                                    Curabitur
-                                    ut sapien vel metus pharetra pellentesque. Cras fermentum lorem et diam consequat,
-                                    aliquet varius sem eleifend. Proin euismod risus sit amet lorem convallis, non
-                                    feugiat
-                                    elit tincidunt. Donec nec dictum justo, non scelerisque eros.
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br />
-        <div class="row justify-content-md-center">
             <div class="card-group col-sm-10">
                 <div class="card border-0">
                     <img src="../assets/LucasPFP.jpg" class="card-img rounded-start" alt="...">
@@ -45,21 +8,27 @@
                 <div class="card border-0">
                     <div class="card-header deer-header">
                         <h1 class="card-title" style="font-weight:bold;">
-                            Card Template 2
+                            Lucas Kearns
                         </h1>
                     </div>
                     <div class="card-body deer-body d-flex align-items-center justify-content-center">
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in ornare libero, eu
-                            sollicitudin urna. Vivamus eu lorem congue, tincidunt sapien porttitor, tincidunt
-                            ligula. Nam magna enim, maximus ut tincidunt in, consequat nec velit. Suspendisse at
-                            metus id nisi volutpat lobortis ut ac orci. Sed dignissim nibh eget ante pellentesque
-                            feugiat. Vestibulum ut nunc eu neque sagittis vestibulum sed at nulla. Nunc congue
-                            turpis ligula, vitae tempus dolor varius ac. Ut sit amet mi et mauris lobortis pharetra
-                            non at nisi. Mauris in felis porta metus semper lacinia nec sit amet tortor. Curabitur
-                            ut sapien vel metus pharetra pellentesque. Cras fermentum lorem et diam consequat,
-                            aliquet varius sem eleifend. Proin euismod risus sit amet lorem convallis, non feugiat
-                            elit tincidunt. Donec nec dictum justo, non scelerisque eros.
+                            Hello! My name is Lucas Kearns, and I’m a new Software Engineer who’s searching
+                            for opportunities to develop both myself and my career to the fullest.
+
+                            With an educational background in physics and mathematics, as well as experience
+                            in professional environments for electrochemistry, experimental analysis, and data
+                            processing, I’m always looking to improve my skills and apply myself to new challenges.
+
+                            I’ve had an interest in programming since I was in grade school writing tic-tac-toe
+                            programs in python. Since then, my passion for creating software has become a passion
+                            of mine, and I’ve continued to learn new skills and insights that keep my abilities
+                            modern and efficient.
+
+                            After receiving a formal education in software engineering through a programming
+                            bootcamp, I now feel prepared and excited to take my first steps towards a professional
+                            career as a developer.
+
                         </p>
                     </div>
                 </div>
@@ -67,48 +36,55 @@
         </div>
         <br />
         <div class="row justify-content-md-center">
-
-            <div class="card-group col-sm-9">
+            <div class="col-sm-5">
                 <div class="card border-0">
-                    <img src="../assets/LucasPFP.jpg" class="card-img rounded-start" alt="...">
-                </div>
-                <div class="card border-0">
-                    <h1 class="card-header card-title deer-header" style="font-weight:bold;">
-                        Card Template 3
-                    </h1>
-                    <div class="card-body deer-body d-flex align-items-center justify-content-center">
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in ornare libero, eu
-                            sollicitudin urna. Vivamus eu lorem congue, tincidunt sapien porttitor, tincidunt
-                            ligula. Nam magna enim, maximus ut tincidunt in, consequat nec velit. Suspendisse at
-                            metus id nisi volutpat lobortis ut ac orci. Sed dignissim nibh eget ante pellentesque
-                            feugiat. Vestibulum ut nunc eu neque sagittis vestibulum sed at nulla. Nunc congue
-                            turpis ligula, vitae tempus dolor varius ac. Ut sit amet mi et mauris lobortis pharetra
-                            non at nisi. Mauris in felis porta metus semper lacinia nec sit amet tortor. Curabitur
-                            ut sapien vel metus pharetra pellentesque. Cras fermentum lorem et diam consequat,
-                            aliquet varius sem eleifend. Proin euismod risus sit amet lorem convallis, non feugiat
-                            elit tincidunt. Donec nec dictum justo, non scelerisque eros.
+                    <h2 class="card-header card-title deer-header">
+                        About Me
+                    </h2>
+                    <div class="card-body deer-body">
+                        <p class="card-text bullit-list">
+                            •Highly motivated, creative, professional, and flexible individual with
+                            expertise across a broad range of communication, natural science, and
+                            technology.
+                            <br>
+                            •Quick to learn and apply new information with high attention to detail
+                            and accuracy.
+                            <br>
+                            •Excellent collaborator able to communicate and coordinate
+                            effectively as a project leader and team member.
+                            <br>
+                            •A talent for analyzing problems, simplifying procedures, and finding
+                            innovative solutions.
                         </p>
+                        <div class="d-flex justify-content-end">
+                            <a href="/about" class="btn btn-page-link col-5">
+                                More About Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5  ">
+                <div class="card border-0">
+                    <h2 class="card-header card-title deer-header">
+                        My Projects
+                    </h2>
+                    <div class="card-body deer-body">
+                        <p class="card-text">
+                            List Projects Here
+                        </p>
+                        <div class="d-flex justify-content-end">
+                            <a href="/projects" class="btn btn-page-link col-5">
+                                Browse Projects
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="card mx-auto border-0 home-prime" style="max-width: 1000px;">
-        <h5 class="card-title">
-            Please note this is a new website still early in development,
-            and I plan to update it regularly, so even if there isn't much to see
-            now, consider checking back in often! Functions I plan on adding soon include:
-        </h5>
-        <p class="card-text" style="text-align: left; margin-left: 3%;">
-            •An About section including my personal information and contact details
-            <br>
-            •A project section in which all my current and past programming projects will be logged
-            <br>
-            •A code sandbox to show off smaller builds and projects using a variety of languages and framewoerks
-        </p>
-    </div>
+
 
 
 </template>

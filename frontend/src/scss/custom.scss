@@ -26,6 +26,27 @@ $navbar-light: #d8e3e0;
 // Component-specific customizations below 👇
 //====================
 
+.bullit-list {
+    text-align: left;
+}
+
+.btn-page-link:hover {
+    font-weight: bold;
+}
+
+.project-image {
+    max-height: 240px;
+    object-fit: cover;
+}
+
+[data-bs-theme="light"] .btn-page-link {
+    background-color: #d8e3e0;
+}
+
+[data-bs-theme="dark"] .btn-page-link {
+    background-color: #078f6b;
+}
+
 [data-bs-theme="light"] .deer-header {
     background-color: #d8e3e0;
 }
@@ -52,7 +73,6 @@ $navbar-light: #d8e3e0;
 }
 
 
-// NOTES
 [data-bs-theme="light"] .home-prime {
     background-color: #d8e3e0;
 }
