@@ -8,6 +8,7 @@ import HomePage from './views/HomePage.vue'
 import AboutMe from './views/AboutMe.vue'
 import ProjectList from './views/ProjectList.vue'
 import App from './App.vue'
+import titleMixIn from './titleMixIn'
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -35,6 +36,7 @@ const router = createRouter({
 })
 
 createApp(App)
+    .mixin(titleMixIn)
     .component('font-awesome-icon', FontAwesomeIcon)
     .use(router)
     .mount('#app')
