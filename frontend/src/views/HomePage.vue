@@ -94,6 +94,8 @@
             </div>
         </div>
     </div>
+    <br/>
+    <contact-form/>
 
     <div class="card mx-auto border-0 home-prime" style="max-width: 1000px;">
         <h5 class="card-title">
@@ -114,8 +116,10 @@
 </template>
 
 <script>
+import ContactForm from "@/components/ContactForm.vue";
 export default {
-}
+  components: { ContactForm },
+};
 </script>
 
 <style></style>
