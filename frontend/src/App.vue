@@ -45,6 +45,9 @@
   <main>
     <RouterView />
   </main>
+  <br/>
+  <br/>
+  <br/>
   <PageFooter />
 </template>
 

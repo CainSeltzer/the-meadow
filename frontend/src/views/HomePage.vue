@@ -43,17 +43,17 @@
                     </h2>
                     <div class="card-body deer-body">
                         <p class="card-text bullit-list">
-                            •Highly motivated, creative, professional, and flexible individual with
+                            • Highly motivated, creative, professional, and flexible individual with
                             expertise across a broad range of communication, natural science, and
                             technology.
                             <br>
-                            •Quick to learn and apply new information with high attention to detail
+                            • Quick to learn and apply new information with high attention to detail
                             and accuracy.
                             <br>
-                            •Excellent collaborator able to communicate and coordinate
+                            • Excellent collaborator able to communicate and coordinate
                             effectively as a project leader and team member.
                             <br>
-                            •A talent for analyzing problems, simplifying procedures, and finding
+                            • A talent for analyzing problems, simplifying procedures, and finding
                             innovative solutions.
                         </p>
 
@@ -76,12 +76,12 @@
                     </h2>
                     <div class="card-body deer-body">
                         <p class="card-text bullit-list">
-                            •Developed a full-stack application which logs and schedules exercise
+                            • Developed a full-stack application which logs and schedules exercise
                             routines for users using Python, FastAPI, Vite, and React with  a PostgreSQL
                             database capable of storing user information, health data, and
                             exercise routine information
                             <br>
-                            •Constructed a full-stack application with the ability to present
+                            • Constructed a full-stack application with the ability to present
                             myself professionally and formally to potential employers with cloud
                             infrastructure services to host my project in a organized, secure, and
                             maintainable manner
