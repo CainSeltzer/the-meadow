@@ -15,6 +15,10 @@ $navbar-light: #d8e3e0;
     text-align: center;
 }
 
+form {
+    text-align: left;
+}
+
 //====================
 // Global theme color customizations below 👇
 //====================
@@ -62,6 +66,18 @@ $navbar-light: #d8e3e0;
 [data-bs-theme="dark"] .deer-body {
     background-color: #02684d;
 }
+
+[data-bs-theme="light"] .deer-important {
+    background-color: #36a16f;
+}
+
+[data-bs-theme="dark"] .deer-important {
+    background-color: #053a2c;
+}
+
+//====================
+// Component-specific customizations below 👇
+//====================
 
 // Navbar
 [data-bs-theme="light"] .navbar {

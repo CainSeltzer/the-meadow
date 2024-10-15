@@ -25,7 +25,7 @@
 
     </nav>
   </div>
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-md-center g-0">
     <div id="siteWarning" class="card border-warning bg-warning mb-3 col-sm-4" style="margin: 2%;">
       <div class="card-body" style="color: black;">
         <font-awesome-icon :icon="['fas', 'triangle-exclamation']" /> Please be aware that this site is still a work in
