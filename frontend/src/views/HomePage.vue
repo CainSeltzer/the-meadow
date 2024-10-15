@@ -56,11 +56,16 @@
                             •A talent for analyzing problems, simplifying procedures, and finding
                             innovative solutions.
                         </p>
+
+                        <!--
                         <div class="d-flex justify-content-end">
                             <a href="/about" class="btn btn-page-link col-5">
                                 More About Me
                             </a>
                         </div>
+                        -->
+
+
                     </div>
                 </div>
             </div>
@@ -70,14 +75,31 @@
                         My Projects
                     </h2>
                     <div class="card-body deer-body">
-                        <p class="card-text">
-                            List Projects Here
+                        <p class="card-text bullit-list">
+                            •Developed a full-stack application which logs and schedules exercise
+                            routines for users using Python, FastAPI, Vite, and React with  a PostgreSQL
+                            database capable of storing user information, health data, and
+                            exercise routine information
+                            <br>
+                            •Constructed a full-stack application with the ability to present
+                            myself professionally and formally to potential employers with cloud
+                            infrastructure services to host my project in a organized, secure, and
+                            maintainable manner
+                            <br>
+                            • Composed application features with a project team,
+                            including the successful implementation of front and back end authentication
+
                         </p>
+
+                        <!--
                         <div class="d-flex justify-content-end">
                             <a href="/projects" class="btn btn-page-link col-5">
                                 Browse Projects
                             </a>
                         </div>
+                        -->
+
+
                     </div>
                 </div>
             </div>
