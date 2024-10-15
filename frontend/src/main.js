@@ -16,10 +16,10 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faPhone, faEnvelope, faTriangleExclamation } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope, faTriangleExclamation, faGears } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add(faTriangleExclamation, faEnvelope, faPhone)
+library.add(faTriangleExclamation, faEnvelope, faPhone, faGears)
 
 
 
