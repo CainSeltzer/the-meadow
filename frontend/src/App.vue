@@ -41,15 +41,21 @@
     </div>
   </div>
 
+
   <main>
     <RouterView />
   </main>
+  <br/>
+  <br/>
+  <br/>
+  <PageFooter />
 </template>
 
 <script>
 import DarkModeButton from "@/components/DarkModeButton.vue";
+import PageFooter from "@/components/PageFooter.vue";
 export default {
-  components: { DarkModeButton },
+  components: { DarkModeButton, PageFooter },
 };
 
 </script>

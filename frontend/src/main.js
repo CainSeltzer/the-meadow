@@ -18,10 +18,12 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faPhone, faEnvelope, faTriangleExclamation, faGears } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope, faTriangleExclamation, faGears} from '@fortawesome/free-solid-svg-icons'
+import { faCopyright } from '@fortawesome/free-regular-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faTriangleExclamation, faEnvelope, faPhone, faGears)
+library.add(faTriangleExclamation, faEnvelope, faPhone, faGears, faGithub, faLinkedin, faCopyright)
 
 
 
