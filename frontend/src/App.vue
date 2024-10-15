@@ -30,13 +30,14 @@
     </main>
   </div>
 
-
+  <PageFooter />
 </template>
 
 <script>
 import DarkModeButton from "@/components/DarkModeButton.vue";
+import PageFooter from "@/components/PageFooter.vue";
 export default {
-  components: { DarkModeButton },
+  components: { DarkModeButton, PageFooter },
 };
 
 </script>
